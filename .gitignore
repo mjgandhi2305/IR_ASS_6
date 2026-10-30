@@ -1,0 +1,11 @@
+# Data and generated artifacts (rebuild with: python build_index.py)
+data/
+artifacts/
+*.parquet
+*.joblib
+
+# Environment / OS
+.venv/
+__pycache__/
+*.pyc
+.DS_Store

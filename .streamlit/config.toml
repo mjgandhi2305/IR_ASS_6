@@ -1,0 +1,27 @@
+[theme]
+base = "light"
+primaryColor = "#1f4e79"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f3f5f8"
+textColor = "#111827"
+linkColor = "#1f4e79"
+borderColor = "#e3e6eb"
+dataframeBorderColor = "#e3e6eb"
+dataframeHeaderBackgroundColor = "#f7f8fa"
+showWidgetBorder = true
+baseRadius = "6px"
+buttonRadius = "6px"
+font = "Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
+headingFont = "Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
+headingFontWeights = [600, 600, 600, 600, 600, 600]
+baseFontSize = 14
+chartCategoricalColors = ["#1f4e79", "#5b8fc7", "#a9c4e2", "#6b7280", "#b42318", "#c98a1b", "#3f7d5c", "#7a5c99", "#2f8f9d", "#9ca3af"]
+
+[server]
+headless = true
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
